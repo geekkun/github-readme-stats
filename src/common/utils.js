@@ -165,6 +165,8 @@ const logger =
   process.env.NODE_ENV !== "test" ? console : { log: noop, error: noop };
 
 const CONSTANTS = {
+  ONE_MINUTE: 60,
+  TEN_MINUTES: 600,
   THIRTY_MINUTES: 1800,
   TWO_HOURS: 7200,
   FOUR_HOURS: 14400,
